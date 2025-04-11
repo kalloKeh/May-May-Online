@@ -1,0 +1,269 @@
+.header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: inherit;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .header {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: lighter;
+    font-style: inherit;
+    text-align: center;
+    font-size: larger;
+  }
+}
+
+@media (max-width: 600px) {
+  .store {
+    color: grey;
+  }
+}
+
+.div1 {
+  height: 100%;
+  width: 100%;
+  margin-top: 2.5%;
+}
+
+.text {
+  font-size: smaller;
+  width: 100%;
+}
+
+.div01 {
+  height: 100%;
+  width: 100%;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.5%;
+  width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.image1 {
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.blank {
+  background-color: grey;
+  max-height: 75px;
+  border-radius: 10px;
+  color: grey;
+  margin-top: 2px;
+}
+
+.shop-location {
+  text-decoration: underline;
+  color: gray;
+}
+
+.shirts:hover,
+.sneakers:hover,
+.jwelries:hover,
+.cosmetics:hover,
+.T-shirts:hover,
+.blowns:hover,
+.jeans:hover,
+.cooking:hover,
+.polos:hover,
+.Ankaras:hover,
+.cottons:hover {
+  text-decoration: solid;
+  font-size: larger;
+}
+
+.business-description {
+  font-size: small;
+  color: rgb(36, 36, 36);
+  flex: 9;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 600px) {
+  .ran {
+    margin-top: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+}
+
+.min {
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(114, 113, 113);
+}
+
+.text1 {
+  color: rgb(67, 65, 65);
+  padding-left: 8px;
+  padding-bottom: 2px;
+}
+
+@media (max-width: 600px) {
+  .ranges {
+    width: 100%;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    margin-bottom: 5px;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .range {
+    width: 100%;
+
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+}
+
+.latest-arrivals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2%;
+  row-gap: 1%;
+}
+
+.latest {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  border-width: 0.5px;
+  border: solid;
+  border-style: none;
+  border-top-left-radius: 15px;
+}
+
+.latest-arrivals {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.latest-arrivalS {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.latesT {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.latest-img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  object-fit: cover;
+  flex: 1;
+}
+
+.latest-Img {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.discovery-title {
+  margin: 0;
+  font-size: small;
+  font-weight: lighter;
+  color: rgb(54, 53, 53);
+  flex: 9;
+}
+
+.Discover {
+  font-weight: bolder;
+  margin-top: 6%;
+  margin-bottom: 0px;
+}
+
+hr {
+  margin-top: 0;
+}
+
+.hr1 {
+  margin-top: 10%;
+}
+
+.scroll-container {
+  display: grid;
+  gap: 3px;
+  grid-auto-flow: column;
+  grid-auto-columns: 47%;
+  padding: o 3px 3px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-element {
+  border-radius: 5px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: min-content;
+  border: solid;
+  border-color: rgb(243, 243, 243);
+  border-width: 1px;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 3px;
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+.price-tag {
+  background-color: rgb(102, 206, 102);
+  width: 35%;
+  position: relative;
+  margin-top: 0px;
+}
